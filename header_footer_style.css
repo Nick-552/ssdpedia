@@ -31,6 +31,9 @@ body {
 
 main{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
@@ -101,10 +104,6 @@ header {
             color: #ff8800;
             transition: 0s;
         }
-
-    .current {
-        background: linear-gradient(#262830 0 0) bottom/ var(--t, 100%) 2px no-repeat;
-    }
 
     .account {
         z-index: 11;
@@ -189,6 +188,9 @@ header {
             transform: translateY(100px);
         }
 
+        .current {
+            background: linear-gradient(#262830 0 0) bottom/ var(--t, 100%) 5px no-repeat;
+        }
 
 footer{
     color:aliceblue;
@@ -325,3 +327,6 @@ footer{
         margin-right: 12%;
     }
 }
+
+
+
