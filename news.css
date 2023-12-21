@@ -112,3 +112,10 @@ main {
     border-radius: 20px;
     height: 360px;
 }
+
+@media (max-width: 650px) {
+    #newsContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
